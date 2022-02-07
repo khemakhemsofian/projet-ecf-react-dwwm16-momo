@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* banniere du Footer (qui a une section)*/
+.banniere{
+    background: #4a154b;
+    border: none;
+    clip-path: ellipse(75% 100% at center top);
+    height: auto;
+    min-height: 370px;
+}
+.titre-banniere{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: xxx-large;
+    padding-top: 130px;
+    line-height: 1.158;
+    letter-spacing: -.8px;
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+    
+}
+.button-contacter-commercial-bis{
+    display: flex;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style-type: none;
+    border:  #611f69 1px solid;
+    color: #611f69;
+    background-color: #fff;
+    width: 300px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.button-contacter-commercial-bis:hover{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    border:  #611f69 2px solid;
+}
+.button-contacter-commercial-bis > a {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    color: #611f69;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: bolder;
+
+}
+/* Partie FooterNavbar*/
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-contenu{
+    display: flex;
+    width: 84%;
+    margin-top: 0;
+}
+.c-nav--footer__svgicon_c-slackhash{
+    margin-left: 120px;
+}
+.row-footer{
+    display: flex;
+    align-items: space-around;
+    flex-direction: row;
+}
+
+.titre-des-menus{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
+.les-sous-menus{
+    margin-right: 5px;
+}
+.decoration-des-menus{
+    /*display: block;*/
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: .875rem;
+}
+
+.decoration-des-menus > li{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.4444;
+    letter-spacing: normal;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+.decoration-des-menus > li:hover{
+    color: rgb(8, 62, 133);
+}
+
+.bloc-sous-menu{
+    margin-left: 100px;
+}
+/* partie bas de page avec les réseaux sociaux*/
+.bloc-du-bas_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liste-bloc-1{
+    display: flex;
+    list-style-type: none;
+    
+}
+.liste-bloc-1 >li >a{
+    margin-right: 10px;
+    font-size: smaller;
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.liste-bloc-2{
+    display: flex;
+    list-style-type: none;
+    margin-left: 450px;
+    
+}
+.liste-bloc-2 >a{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: smaller;
+    
+}
+.bloc-3{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    display: flex;
+    list-style-type: none;
+    margin-right: 200px;
+    
+}
+.bloc-3 >svg{
+    margin-left: 10px;
+    font-size: large;
+}
+.c-la-fin-ouais{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.decoration-fin{
+    font-size: small;
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+i.icon{
+   width: 100px;
+    height: 100px;
+}

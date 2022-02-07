@@ -1,0 +1,130 @@
+header{
+    display: block;
+}
+
+
+.liste__nav{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -23px;
+    margin-left: 120px;
+}
+.liste__nav > span{
+    margin-right: 15px;
+    margin-left: 150px;
+ 
+}
+.c-slacklogo--color{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+/*.liste-de-la-nav{
+    margin-top: 35px;
+}*/
+.liste-de-la-nav2{
+    display: flex;
+}
+.sous-menu-deroulant{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.decoration-sous-menu{
+    text-decoration: none;
+    list-style-type: none;
+    border: rgb(255, 255, 255) 1px solid;
+    margin-top: 10px;
+    box-shadow: 2px 0px 20px 0px rgb(172 169 169 / 50%);
+    border-radius: 10px;
+    
+}
+.decoration-sous-menu > li {
+    margin-top: 10px;
+    margin-left: -22px;
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.liste-de-la-nav2 > li {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin-left: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.connexion-contact  {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    display: flex;
+      margin-left: 50px;
+      text-decoration: none;
+      list-style-type: none;
+}
+.button-contacter-commercial{
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    border:  #611f69 1px solid;
+    color: #611f69;
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.button-contacter-commercial:hover{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    border:  #611f69 2px solid;
+}
+.button-contacter-commercial > a {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    color: #611f69;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    
+    
+}
+.button-essai{
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    background-color: #611f69;
+    width: 130px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.button-essai:hover{
+   background-color:#400d40;
+}
+.button-essai > a {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    color: #fff;
+    margin-top: 11px;
+    margin-left: 18px;
+    font-size: medium;
+    
+}
+
+/*@media screen and (min-width:0) and (max-width:1084px){
+    .nav-close-btn{
+      display: block
+    }
+    #nav_button_menu{
+        display:block
+    }
+}
+@media screen and (min-width:1085px) {
+    .nav-close-btn{
+      display: none;
+    }
+    #nav_button_menu{
+        display:none;
+    }
+}*/
+
+

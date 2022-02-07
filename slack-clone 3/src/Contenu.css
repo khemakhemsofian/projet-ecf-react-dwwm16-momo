@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*page entreprise*/
+/*css qui sera valable sur tout les component*/
+.section-partie > div{  
+    width: 45%;
+    
+ }
+ .img-src > img{
+     max-width: 450px;
+ }
+ /*fond gris le component 2 4 6  */
+.section-partie:nth-child(2n){
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4efe8;
+
+}
+
+/*premier component*/
+.gros-titre{
+    font-size: x-large;
+}
+
+.button-contact{
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    background-color: #611f69;
+    width: 130px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.button-contact:hover{
+   background-color:#400d40;
+}
+.button-contact > a {
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    color: #fff;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: medium;
+    
+}
+.section-partie{
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mini-titre{
+    padding-top: 50px;
+    font-weight: bold;
+}
+.le-text{
+    font-weight: bold;
+}
+
+
+/* component 2*/
+.mini-titre2{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.gros-titre2{
+    font-size: x-large;
+}
+.mini-lien2{
+  font-weight: bold;
+  margin-left: -40px;
+  cursor: pointer;
+  color: #1264a3;
+
+}
+.mini-lien2:hover{
+
+    border-bottom:3px solid  #1264a3;
+    transition: 0.5s;
+}
+.le-text2{
+    font-weight: bold;
+}
+.le-text2 >ul >li {
+    margin-bottom: 10px;
+}
+.le-text-bis2{
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+
+/*component 3*/
+.mini-titre3{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.gros-titre3{
+    font-size: x-large;
+}
+.mini-lien3{
+  font-weight: bold;
+  margin-left: -40px;
+  cursor: pointer;
+  color: #1264a3;
+
+}
+.mini-lien3:hover{
+
+    border-bottom:3px solid  #1264a3;
+    transition: 0.5s;
+}
+.le-text3{
+    font-weight: bold;
+}
+.le-text3 >ul >li {
+    margin-bottom: 10px;
+}
+.le-text-bis3{
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.auteur3{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/*component 4*/
+.mini-titre4{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.gros-titre4{
+    font-size: x-large;
+}
+.mini-lien4{
+  font-weight: bold;
+  margin-left: -40px;
+  cursor: pointer;
+  color: #1264a3;
+
+}
+.mini-lien4:hover{
+
+    border-bottom:3px solid  #1264a3;
+    transition: 0.5s;
+}
+.le-text4{
+    font-weight: bold;
+}
+.le-text4 >ul >li {
+    margin-bottom: 10px;
+}
+.le-text-bis4{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.auteur4{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.auteur-bis4{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/*component 5*/
+.mini-titre5{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.gros-titre5{
+    font-size: x-large;
+    font-weight: bold;
+}
+.mini-lien5{
+  font-weight: bold;
+  margin-left: -40px;
+  cursor: pointer;
+  color: #1264a3;
+  margin-bottom: 50px;
+
+}
+.mini-lien5:hover{
+
+    border-bottom:3px solid  #1264a3;
+    transition: 0.5s;
+}
+.le-text5{
+    font-weight: bold;
+}
+.le-text5 >ul >li {
+    margin-bottom: 10px;
+}
+.auteur5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.auteur-bis5{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+.auteur-bis5 >ul >img {
+    margin-right: 50px;
+}
+
+
+/*component 6*/
+.mini-titre6{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.gros-titre6{
+    font-size: x-large;
+    font-weight: bold;
+}
+.mini-lien6{
+  font-weight: bold;
+  margin-left: -40px;
+  cursor: pointer;
+  color: #1264a3;
+  margin-bottom: 50px;
+
+}
+.mini-lien6:hover{
+
+    border-bottom:3px solid  #1264a3;
+    transition: 0.5s;
+}
+
+.le-text6{
+    font-weight: bold;
+}
+.le-text6 >ul >li {
+    margin-bottom: 10px;
+}
+
+.auteur6{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.auteur-bis6{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+.auteur-bis6{
+    margin-right: 50px;
+}
+/*page formulaire*/
+/*valable pour tous les components*/
+.section-page > div{  
+    width: 45%;
+    
+ }
+ .section-page{
+     background-color:#400d40;
+ }
+ .titre-du-contenu{
+    font-size: x-large;
+    font-weight: bold;
+    color:#fff;
+   
+}
+.titre-du-contenu > h1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.titre-du-contenu2{
+    font-size: x-large;
+    font-weight: bold;
+    color:#fff;
+   
+}
+.titre-du-contenu2> h1 {
+    margin-left: 50px;
+    
+}
+ .lien-du-contenu{
+    font-weight: bold;
+    cursor: pointer;
+     color: #36c5f0;
+     margin-bottom: 50px;
+ }
+.list-text > ul{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+ 
+ .lien-du-contenu:hover{
+    border-bottom:3px solid  #36c5f0;
+    transition: 0.5s;
+ }
+ .contenu-bas{
+     background-color: #ccc;
+     font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+     font-weight: bold;
+     font-size: large;
+ }
